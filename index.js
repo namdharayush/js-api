@@ -8,7 +8,9 @@ const add_question = require('./routes/add_questions.js')
 
 const app = express()
 app.use(express.json())
-app.use(cors());
+app.use(cors({
+    origin : 'https://js-api-v1.netlify.app'
+}));
 
 app.use('/all-questions',js_questions)
 app.use('/send-email',add_question)
