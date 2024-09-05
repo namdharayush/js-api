@@ -8,11 +8,8 @@ const add_question = require('./routes/add_questions.js')
 
 const app = express()
 app.use(express.json())
-app.use(cors(
-    {
-        origin : '*'
-    }
-));
+app.use();
+
 
 app.use('/all-questions',js_questions)
 app.use('/send-email',add_question)
