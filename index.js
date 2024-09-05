@@ -9,7 +9,7 @@ const add_question = require('./routes/add_questions.js')
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin : 'https://js-api-v1.netlify.app'
+    origin : ['https://api.ayushnamdhar.tech/all-questions','127.0.0.1','localhost']
 }));
 
 app.use('/all-questions',js_questions)
