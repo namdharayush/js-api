@@ -8,7 +8,7 @@ const add_question = require('./routes/add_questions.js')
 
 const app = express()
 app.use(express.json())
-app.use();
+app.use(cors());
 
 
 app.use('/all-questions',js_questions)
