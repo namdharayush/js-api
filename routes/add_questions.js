@@ -12,7 +12,7 @@ const React = require('react')
 const ReactDOMServer = require('react-dom/server');
 const EmailTemplate = require("../public/EmailTemplate")
 const AcceptRequestEmail = require('../public/AcceptRequestEmail')
-const RejectRequestEmail = require('../public/RejectrequestEmail')
+const RejectRequestEmail = require('../public/RejectRequestEmail')
 
 const transporter = nodemailer.createTransport({
     service:'gmail',
