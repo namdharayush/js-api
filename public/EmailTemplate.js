@@ -2,8 +2,8 @@ const React = require('react');
 
 const EmailTemplate = ({ question, code, answer, explain, difficult, type, options,accessToken }) => {
 
-    const accept_url = `http://localhost:8080/send-email/accepted?token=${accessToken}`
-    const reject_url = `http://localhost:8080/send-email/rejected?token=${accessToken}`
+    const accept_url = `https://js-api-v9zu.onrender.com/send-email/accepted?token=${accessToken}`
+    const reject_url = `https://js-api-v9zu.onrender.com/send-email/rejected?token=${accessToken}`
 
     return React.createElement(
         'div',

@@ -9,7 +9,7 @@ const AcceptRequestEmail = () => {
         React.createElement('p', null, 'Your request has been accepted.'),
         React.createElement('p', null, 
             'See the question in this link: ',
-            React.createElement('a', { href: 'https://localhost:8000/', style: { color: '#007BFF', textDecoration: 'none' } }, 'https://localhost:8000/')
+            React.createElement('a', { href: 'https://ayushnamdhar.tech/question', style: { color: '#007BFF', textDecoration: 'none' } }, 'https://localhost:8000/')
         )
     );
 };
